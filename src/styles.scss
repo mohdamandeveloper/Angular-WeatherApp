@@ -1,7 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
-
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
+
+@import 	"./assets/scss/libs/settings",
+ 			"./assets/scss/libs/mixins",
+ 			"./assets/scss/libs/normalize",
+ 			"./assets/scss/libs/global",
+ 			"./assets/scss/libs/components",
+ 			"./assets/scss/layout/header";
